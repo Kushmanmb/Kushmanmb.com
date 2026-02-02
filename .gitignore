@@ -17,3 +17,60 @@ key.pem
 .idea
 chrome-extension
 dist
+
+# Private Keys and Certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.csr
+*.der
+
+# SSH Keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.ppk
+
+# Environment Variables and Configuration
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# API Keys and Secrets
+secrets.json
+secrets.yml
+secrets.yaml
+secret.json
+secret.yml
+secret.yaml
+.secret
+.secrets/
+private.json
+private.yml
+private.yaml
+.private
+credentials.json
+apikeys.json
+api-keys.json
+
+# AWS Credentials
+.aws/
+aws-credentials.json
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Configuration files that may contain sensitive data
+config.local.js
+config.local.json
+settings.local.json
