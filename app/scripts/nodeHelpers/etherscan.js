@@ -1,6 +1,6 @@
 'use strict';
 var etherscan = function() {}
-etherscan.SERVERURL = "https://api.etherscan.io/api";
+etherscan.SERVERURL = "https://api.etherscan.io/v2/api?chainid=1";
 etherscan.pendingPosts = [];
 etherscan.config = {
     headers: {
@@ -110,7 +110,7 @@ etherscan.queuePost = function() {
     var data = this.pendingPosts[0].data;
     var callback = this.pendingPosts[0].callback;
     var parentObj = this;
-    data.apikey = 'DSH5B24BQYKD1AD8KUCDY3SAQSS6ZAU175';
+    data.apikey = 'ZITG8EMXRFSWU2CDTNT4XEI7GDYB2JBMGD';
     ajaxReq.http.post(this.SERVERURL, ajaxReq.postSerializer(data), this.config).then(function(data) {
         callback(data.data);
         parentObj.pendingPosts.splice(0, 1);
