@@ -42,7 +42,6 @@ id_ed25519
 .env.development.local
 .env.test.local
 .env.production.local
-*.local
 
 # API Keys and Secrets
 secrets.json
@@ -65,8 +64,9 @@ api-keys.json
 .aws/
 aws-credentials.json
 
-# Database
-*.sql
+# Database (backups and dumps, not schema files)
+*dump*.sql
+*backup*.sql
 *.sqlite
 *.db
 
