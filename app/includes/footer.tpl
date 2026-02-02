@@ -88,8 +88,8 @@
       <li><a href="http://keepkey.go2cloud.org/aff_c?offer_id=1&aff_id=4086" rel="noopener"> Buy a Keepkey </a></li>
       <li><a href="https://stee.ly/2Hcl4RE" target="_blank" rel="noopener"> Get a Steely </a></li>
       <li><a href="https://ether.cards/?utm_source=mycrypto&utm_medium=cpm&utm_campaign=site" target="_blank" rel="noopener"> Get an ether.card </a></li>
-      <li>Donate ETH <br /><small class="mono">0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520</small> </li>
-      <li>Donate BTC <br /><small class="mono">32oirLEzZRhi33RCXDF9WHJjEb8RsrSss3</small> </li>
+      <li>Donate ETH <br /><a href="https://etherscan.io/address/0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520" target="_blank" rel="noopener noreferrer"><small class="mono">0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520</small></a> </li>
+      <li>Donate BTC <br /><a href="https://www.blockchain.com/btc/address/32oirLEzZRhi33RCXDF9WHJjEb8RsrSss3" target="_blank" rel="noopener noreferrer"><small class="mono">32oirLEzZRhi33RCXDF9WHJjEb8RsrSss3</small></a> </li>
     </ul>
   </div>
 </footer>
